@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ECAPA-TDNN model (~200 MB — friend will auto-download on first run)
+voice-service/pretrained_models/
+
+# Enrolled voice data (private)
+voice-service/embeddings.json
+
+# Test audio files
+voice-service/tests/stranger.wav
+voice-service/*.wav
+voice-service/*.mp3
+voice-service/*.m4a
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

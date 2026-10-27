@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+speechbrain
+torch
+torchaudio
+python-multipart
+numpy
+scipy
+soundfile
